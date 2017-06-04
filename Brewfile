@@ -1,0 +1,11 @@
+tap "caskroom/cask"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "thoughtbot/formulae"
+brew "node"
+brew "postgresql", restart_service: true
+brew "rbenv"
+brew "thoughtbot/formulae/rcm"
+cask "java"
+cask "rescuetime"

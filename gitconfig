@@ -1,0 +1,21 @@
+[user]
+	email = canalesb93@gmail.com
+	name = Ricardo Canales
+[push]
+    default = tracking
+[alias]
+    co = checkout
+    br = branch
+    st = status
+    s = status
+    ci = commit
+    unstage = reset HEAD --
+    unstagelastcommit = reset HEAD~
+    last = log -1 HEAD
+    ec = config --global -e
+    cm = !git add -A && git commit -m
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+    editor = vim
+	excludesfile = ~/.dotfiles/.gitignore_global

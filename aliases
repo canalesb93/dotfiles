@@ -1,0 +1,23 @@
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+
+# Shortcuts
+alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
+alias weather="curl -4 http://wttr.in"
+alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+
+alias show-files="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder"
+alias hide-files="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder"
+alias reload!=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
+
+# Directories
+alias dotfiles="cd $DOTFILES"
+alias library="cd $HOME/Library"
+alias workspace="cd $HOME/Workspace"
+
+# Dotfiles
+alias zshconfig="vim ~/.zshrc"
+alias gitconfig="vim ~/.gitconfig"
+alias ohmyzsh="vim ~/.oh-my-zsh"
