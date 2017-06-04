@@ -32,7 +32,7 @@ echo "========================================"
 echo "Syncing dotfiles..."
 echo "========================================"
 
-env RCRC=$HOME/dotfiles/rcrc rcup
+env RCRC=$HOME/.dotfiles/rcrc rcup
 
 echo "\x1B[32m...Done...\x1B[0m"
 
