@@ -31,7 +31,7 @@ Run `.macos` script:
 
 Exclude files from RCM by adding them in `rcrc` and running to generate `~/.rcrc`.
 
-    env RCRC=$HOME/dotfiles/rcrc rcup
+    env RCRC=$HOME/.dotfiles/rcrc rcup
 
 Update the `Brewfile` with:
 

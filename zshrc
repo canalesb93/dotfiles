@@ -48,7 +48,7 @@ ZSH_THEME="spaceship"
 HIST_STAMPS="dd/mm/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=$DOTFILES
+# ZSH_CUSTOM=$DOTFILES
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -60,6 +60,12 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+# Golang Paths
+export GOPATH=$HOME/Workspace/Go
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
 
 # rbenv initialization
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -82,3 +88,6 @@ export LANG=en_US.UTF-8
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# Load Aliases
+. ~/.zsh_aliases
