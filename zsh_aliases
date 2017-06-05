@@ -19,5 +19,6 @@ alias workspace="cd $HOME/Workspace"
 
 # Dotfiles
 alias zshconfig="vim ~/.zshrc"
+alias vimconfig="vim ~/.vimrc"
 alias gitconfig="vim ~/.gitconfig"
 alias ohmyzsh="vim ~/.oh-my-zsh"

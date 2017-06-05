@@ -54,7 +54,7 @@ HIST_STAMPS="dd/mm/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(zsh-syntax-highlighting)
 
 # Activate Oh-My-Zsh
 source $ZSH/oh-my-zsh.sh
@@ -62,7 +62,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # Golang Paths
-export GOPATH=$HOME/Workspace/Go
+export GOPATH=$HOME/Workspace/golang
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
